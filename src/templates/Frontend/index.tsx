@@ -6,8 +6,11 @@ type FrontedProps = {
 };
 
 const Frontend = ({children}: FrontedProps) => {
-    return <S.Container>
+    return(
+     <S.Container>
         <Header></Header>
-        </S.Container>; 
+        <main>{children}</main>
+    </S.Container>
+    );
 };
 export default Frontend;

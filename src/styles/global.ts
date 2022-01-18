@@ -27,5 +27,7 @@ const globalStyle = createGlobalStyle`
         text-decoration: none;
         outline: none;
     }
+
+
 `;
 export default globalStyle;
